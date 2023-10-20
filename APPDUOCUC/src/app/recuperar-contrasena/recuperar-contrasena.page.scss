@@ -1,0 +1,38 @@
+ion-content {
+    --ion-background-color: #08234b; /* Fondo azul oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Centrado verticalmente */
+  }
+  
+  .login-container {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px; /* Ancho máximo */
+    text-align: center; /* Centrado horizontalmente */
+    margin: 100px auto 20px auto; /* Espacio superior */
+    height: auto; /* Ajuste de altura automático */
+  }
+  
+  ion-item {
+    --ion-background-color: transparent;
+    --ion-text-color: #fdfdfd; /* Texto en color blanco */
+    border: none;
+  }
+  
+  .login-button {
+    --ion-background-color: #fff; /* Color blanco para el botón */
+    --ion-text-color: #08234b; /* Texto azul oscuro para el botón */
+    margin-top: 20px;
+  }
+  
+  .reset-password-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #000; /* Texto en color negro */
+    text-decoration: underline;
+    cursor: pointer;
+  }

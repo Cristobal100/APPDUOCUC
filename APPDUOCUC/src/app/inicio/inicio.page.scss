@@ -1,0 +1,27 @@
+ion-content {
+    --ion-background-color: #08234b; 
+  }
+  
+  .login-container {
+    background-color: #08234b; 
+    color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+    margin-top: 20px; 
+    height: auto; 
+  }
+  
+  ion-item {
+    --ion-background-color: transparent;
+    --ion-text-color: #fff; 
+    border: none;
+  }
+  
+  .login-button {
+    --ion-background-color: #fff; 
+    --ion-text-color: #08234b; 
+    margin-top: 20px;
+  }
